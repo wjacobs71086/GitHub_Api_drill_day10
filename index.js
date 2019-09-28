@@ -18,6 +18,7 @@ function fromGitHub(userName,maxResults){
 
 
 //  handle submit Button
+
 function handleSubmitRequest(){
   $('#js-form').submit(event => {
     event.preventDefault();
