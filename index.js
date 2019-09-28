@@ -23,7 +23,9 @@ function handleSubmitRequest(){
     event.preventDefault();
     let userName = $('#js-search-field').val();
     let maxResults = parseInt($('#max-results-field').val());
+    
     fromGitHub(userName, maxResults);
+    $('.results-list').empty();
     //console.log(maxResults);
   });
 }
